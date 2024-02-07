@@ -1,0 +1,11 @@
+﻿int a=5;
+int b=6;
+int c=7;
+int d=9;
+int result = a * b / (c + d);
+float result1 = a * b / (c + d);
+float a1=5;
+float trueResult = a1 * b / (c + d);
+Console.WriteLine($"Рузультат типа int: ({a} * {b}) / ({c} + {d}) = {result}");
+Console.WriteLine($"Рузультат типа float: ({a} * {b}) / ({c} + {d}) = {result1}");
+Console.WriteLine($"Рузультат и одна из переменных типа float: ({a1} * {b}) / ({c} + {d}) = {trueResult}");
